@@ -1,7 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
-import Dev from "./components/Dev";
 import Skills from "./components/Skills";
 import { useState } from "react";
 function App() {
@@ -33,7 +32,11 @@ function App() {
               modernas y funcionales.
             </b>
           </div>
-         <Dev/>
+          <img
+            className="rounded-full w-[11rem] h-[11.5rem] px-[1rem] lg:w-[14.5rem] lg:h-[15rem] transition-transform transform hover:scale-105"
+            src="/assets/icons/valentin.jpg"
+            alt=""
+          />
         </div>
         <div className="flex mt-[2rem]">
           <h2 className="flex w-[100%] justify-center">

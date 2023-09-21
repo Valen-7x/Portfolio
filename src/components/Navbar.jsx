@@ -12,7 +12,7 @@ const Navbar = ({ isDark, toggleBackground }) => {
   return (
     <nav className={` p-4 ${backgroundColor} w-[100%]`}>
       <div className="container mx-auto flex flex-col sm:flex-row  gap-5  justify-between items-center">
-       <img className={`${fontColor2} w-[3.7rem]`} src="public\codigo.png" alt="" />
+       <img className={`${fontColor2} w-[3.7rem]`} src="src/assets/codigo.png" alt="" />
         {/* Botón del menú hamburguesa */}
         <div className='flex flex-col items-center'>
         <button

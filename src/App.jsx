@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
+import Dev from "./components/Dev";
 import { useState } from "react";
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -31,12 +32,7 @@ function App() {
               modernas y funcionales.
             </b>
           </div>
-
-          <img
-            className="rounded-full w-[11rem] h-[11.5rem] px-[1rem] lg:w-[14.5rem] lg:h-[15rem] transition-transform transform hover:scale-105"
-            src="public\Valentin Dorigo (1).jpeg"
-            alt=""
-          />
+         <Dev/>
         </div>
         <div className="flex mt-[2rem]">
           <h2 className="flex w-[100%] justify-center">

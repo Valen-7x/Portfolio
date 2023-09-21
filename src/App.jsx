@@ -45,7 +45,7 @@ function App() {
               <div className="flex flex-row justify-center w-[100%] mt-[1rem] md:gap-20 gap-5">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="public\html.png"
+                  src="public/html.png"
                   alt=""
                 />
                 <img
@@ -67,22 +67,22 @@ function App() {
               <div className="flex flex-row justify-center w-[100%] md:gap-20 gap-5">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="public\nodejs-2.svg"
+                  src="public/nodejs-2.svg"
                   alt=""
                 />
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="public\mongodb-icon-1.svg"
+                  src="public/mongodb-icon-1.svg"
                   alt=""
                 />
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="public\postman.svg"
+                  src="public/postman.svg"
                   alt=""
                 />
                 <img
                   className="w-[3.7rem] sm:w-[6rem] hover:scale-125"
-                  src="public\tailwind-css-2.svg"
+                  src="public/tailwind-css-2.svg"
                   alt=""
                 />
               </div>
@@ -94,17 +94,17 @@ function App() {
                 />
                 <img
                   className="w-[3.7rem] sm:w-[6rem] hover:scale-125"
-                  src="public\visual-basico.png"
+                  src="public/visual-basico.png"
                   alt=""
                 />
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="public\signo-de-github.png"
+                  src="public/signo-de-github.png"
                   alt=""
                 />
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="public\bootstrap-5-1.svg"
+                  src="public/bootstrap-5-1.svg"
                   alt=""
                 />
               </div>
@@ -115,7 +115,7 @@ function App() {
           </h2>
           <div className="flex flex-col w-[100%] justify-center gap-8">
             <div className="flex flex-row justify-center gap-2  w-[100%]">
-              <Card image="public\Captura de pantalla (127).png" />
+              <Card image="public/Captura de pantalla (127).png" />
               <Card />
             </div>
             <div className="flex flex-row justify-center gap-2 w-[100%]">

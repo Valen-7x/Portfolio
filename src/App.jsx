@@ -47,7 +47,7 @@ function App() {
           </h2>
           <div className="flex flex-col w-[100%] justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-2  w-[100%]">
-              <Card imageSrc="src/assets/Captura de pantalla (129).png" />
+              <Card imageSrc="assets/Captura de pantalla (129).png" />
               <Card />
             </div>
             <div className="flex flex-wrap justify-center gap-2 w-[100%]">

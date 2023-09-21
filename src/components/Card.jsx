@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Card({ imageSrc, imageSrc2 }) {
+export default function Card({ imageSrc }) {
   
   return (
     <div

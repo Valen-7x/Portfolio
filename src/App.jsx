@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Dev from "./components/Dev";
-import Tecnologies from "./components/tecnologies";
+import Skills from "./components/Skills";
 import { useState } from "react";
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -41,7 +41,7 @@ function App() {
           </h2>
         </div>
         <div className="flex flex-col justify-center w-[100%] ">
-         <Tecnologies/>
+         <Skills/>
           <h2 className="flex w-[100%] justify-center">
             <b className="text-purple-700 text-3xl ">PROYECTOS</b>
           </h2>

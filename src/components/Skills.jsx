@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Tecnologies() {
+export default function Skills() {
   return (
          <div className="w-[100%] flex justify-center mt-[2rem] mb-[5rem]">
             <div className="  rounded-xl h-[27rem] w-[45rem] flex flex-col gap-10 mb-[1rem]">

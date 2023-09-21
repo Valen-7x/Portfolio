@@ -5,7 +5,7 @@ export default function () {
     <div>
          <img
             className="rounded-full w-[11rem] h-[11.5rem] px-[1rem] lg:w-[14.5rem] lg:h-[15rem] transition-transform transform hover:scale-105"
-            src="public\Valentin Dorigo (1).jpg"
+            src="public/valentin.jpg"
             alt=""
           />
     </div>

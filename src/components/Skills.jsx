@@ -1,6 +1,7 @@
 import React from 'react'
-
-
+import image2 from '../assets/images/html.png'
+import image3 from '../assets/images/nodejs-2.svg'
+import image4 from '../assets/images/mongodb-icon-1.svg'
 export default function Skills() {
   return (
          <div className="w-[100%] flex justify-center mt-[2rem] mb-[5rem]">
@@ -9,7 +10,7 @@ export default function Skills() {
                 <div className="flex flex-col">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="../assets/images/html.png"
+                  src={image2}
                   alt=""
                 />
                 <b>HTML5</b>
@@ -43,7 +44,7 @@ export default function Skills() {
               <div className="flex flex-col">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="/assets/images/nodejs-2.svg"
+                  src={image3}
                   alt=""
                 />
                 <b>NODE-JS</b>
@@ -51,7 +52,7 @@ export default function Skills() {
                 <div className="flex flex-col">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="src\assets\images\nodejs-2.svg"
+                  src={image4}
                   alt=""
                 />
                 <b>MONGO-DB</b>
@@ -59,7 +60,7 @@ export default function Skills() {
                  <div className="flex flex-col">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="src/assets/postman.svg"
+                  src={"src/assets/postman.svg"}
                   alt=""
                 />
                 <b>POSTMAN</b>

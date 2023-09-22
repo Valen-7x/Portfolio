@@ -10,108 +10,108 @@ import image9 from '../assets/images/bootstrap-5-1.svg'
 
 export default function Skills() {
   return (
-         <div className="w-[100%] flex justify-center mt-[2rem] mb-[5rem]">
-            <div className="  rounded-xl h-[27rem] w-[45rem] flex flex-col gap-10 mb-[1rem]">
+         <div className="px-[3rem] w-[100%] flex justify-center mt-[2rem] mb-[5rem]">
+            <div className="  rounded-xl h-[20rem] sm:h-[30rem] w-[45rem] flex flex-col gap-10 mb-[1rem] ">
               <div className="flex flex-row  items-center justify-center w-[100%] mt-[1rem] md:gap-20 gap-5">
                 <div className="flex flex-col">
                 <img
-                  className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] hover:scale-125"
                   src={image2}
                   alt=""
                 />
-                <b>HTML5</b>
+                <b  className='text-[0.9rem]'>HTML5</b>
                 </div>
                 <div className="flex flex-col">
                 <img
-                  className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] hover:scale-125"
                   src="https://akshata-tande.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcss.7e16fac1.png&w=128&q=75"
                   alt=""
                 />
-                <b>CSS3</b>
+                <b  className='text-[0.9rem]'>CSS3</b>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                 <img
-                  className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] hover:scale-125"
                   src="https://akshata-tande.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjavascript.c1c7776c.png&w=128&q=75"
                   alt=""
                 />
-                <b>JAVASCRIPT</b>
+                <b  className='text-[0.9rem]'>JavaScript</b>
                 </div>
                 <div className="flex flex-col">
                 <img
-                  className="w-[3.4rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] hover:scale-125"
                   src="https://akshata-tande.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freact.3ac94d47.png&w=128&q=75"
                   alt=""
                 />
-                <b>REACT</b>
+                <b  className='text-[0.9rem]'>React</b>
                 </div>
               </div>
               <div className="flex items-center flex-row justify-center w-[100%] md:gap-20 gap-5">
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <img
-                  className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
+                  className="flex w-[3rem] sm:w-[6rem] hover:scale-125"
                   src={image3}
                   alt=""
                 />
-                <b>NODE-JS</b>
+                <b  className='text-[0.9rem]'>NodeJs</b>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                 <img
-                  className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] hover:scale-125"
                   src={image4}
                   alt=""
                 />
-                <b>MONGO-DB</b>
+                <b  className='text-[0.9rem]'>MongoDb</b>
                 </div>
                  <div className="flex flex-col">
                 <img
-                  className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] hover:scale-125"
                   src={image5}
                   alt=""
                 />
-                <b>POSTMAN</b>
+                <b  className='text-[0.9rem]'>Postman</b>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                 <img
-                  className="w-[3.7rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] mt-[0.4rem] hover:scale-125"
                   src={image6}
                   alt=""
                 />
-                <b>TAILWIND-CSS</b>
+                <b  className='text-[0.9rem] pt-[0.8rem]'>Tailwind</b>
                 </div>
               </div>
               <div className="flex items-center flex-row justify-center w-[100%]  md:gap-20 gap-5">
               <div className="flex flex-col">
                 <img
-                  className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] hover:scale-125"
                   src="https://akshata-tande.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcanva.408cd74f.png&w=128&q=75"
                   alt=""
                 />
-                <b>CANVA</b>
+                <b  className='text-[0.9rem]'>Canva</b>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                 <img
-                  className="w-[3.7rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] hover:scale-125"
                   src={image7}
                   alt=""
                 />
-                <b>VISUAL STUDIO</b>
+                <b  className='text-[0.9rem]'>VisualStudio</b>
                 </div>
                 <div className="flex flex-col">
                 <img
-                  className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] sm:w-[6rem] hover:scale-125"
                   src={image8}
                   alt=""
                 />
-                <b>GITHUB</b>
+                <b className='text-[0.9rem]'>GitHub</b>
                 </div>
                  <div className="flex flex-col">                
                 <img
-                  className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
+                  className="w-[3rem] mb-[0.4rem] sm:w-[6rem] hover:scale-125"
                   src={image9}
                   alt=""
                 />
-                <b>BOOSTRAP</b>
+                <b  className='text-[0.9rem]'>Boostrap</b>
                 </div>
               </div>
             </div>

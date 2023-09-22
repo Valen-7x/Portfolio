@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div
-        className={`cursor-crosshair h-[100%] bg-cover bg-center ${backgroundColor} `}
+        className={`cursor-crosshair h-[100%] bg-cover bg-center ${backgroundColor} ${fontColor}`}
       >
         <Navbar isDark={isDark} toggleBackground={toggleBackground} />
         <div className="flex w-[100%]  gap-5 flex flex-wrap items-center md:flex-row md:justify-center justify-center sm:h-[30rem] h-[38rem] mt-[0.5rem]">
@@ -27,7 +27,7 @@ function App() {
               <br /> <b className=" hover:underline">Desarrollador Frontend.</b>
             </b>
             <b
-              className={`md:text-xl md:mt-[1rem] lg:pl-[4rem] text-lg text-black-600 ${fontColor} md:w-[38rem]`}
+              className="md:text-xl md:mt-[1rem] lg:pl-[4rem] text-lg text-black-600  md:w-[38rem]"
             >
               Soy un apasionado por la tecnología y el desarrollo web. <br />
                Transformo ideas en experiencias web

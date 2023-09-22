@@ -42,7 +42,7 @@ export default function Skills() {
               <div className="flex flex-col">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="src/assets/icons/nodejs-2.svg"
+                  src="/assets/images/nodejs-2.svg"
                   alt=""
                 />
                 <b>NODE-JS</b>
@@ -50,7 +50,7 @@ export default function Skills() {
                 <div className="flex flex-col">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="src/assets/icons/mongodb-icon-1.svg"
+                  src="src\assets\images\nodejs-2.svg"
                   alt=""
                 />
                 <b>MONGO-DB</b>

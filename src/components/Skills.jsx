@@ -2,6 +2,12 @@ import React from 'react'
 import image2 from '../assets/images/html.png'
 import image3 from '../assets/images/nodejs-2.svg'
 import image4 from '../assets/images/mongodb-icon-1.svg'
+import image5 from '../assets/images/postman.svg'
+import image6 from '../assets/images/tailwind-css-2.svg'
+import image7 from '../assets/images/visual-basico.png'
+import image8 from '../assets/images/signo-de-github.png'
+import image9 from '../assets/images/bootstrap-5-1.svg'
+
 export default function Skills() {
   return (
          <div className="w-[100%] flex justify-center mt-[2rem] mb-[5rem]">
@@ -60,7 +66,7 @@ export default function Skills() {
                  <div className="flex flex-col">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src={"src/assets/postman.svg"}
+                  src={image5}
                   alt=""
                 />
                 <b>POSTMAN</b>
@@ -68,7 +74,7 @@ export default function Skills() {
                 <div className="flex flex-col">
                 <img
                   className="w-[3.7rem] sm:w-[6rem] hover:scale-125"
-                  src="src/assets/tailwind-css-2.svg"
+                  src={image6}
                   alt=""
                 />
                 <b>TAILWIND-CSS</b>
@@ -86,7 +92,7 @@ export default function Skills() {
                 <div className="flex flex-col">
                 <img
                   className="w-[3.7rem] sm:w-[6rem] hover:scale-125"
-                  src="src/assets/visual-basico.png"
+                  src={image7}
                   alt=""
                 />
                 <b>VISUAL STUDIO</b>
@@ -94,7 +100,7 @@ export default function Skills() {
                 <div className="flex flex-col">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="src/assets/signo-de-github.png"
+                  src={image8}
                   alt=""
                 />
                 <b>GITHUB</b>
@@ -102,7 +108,7 @@ export default function Skills() {
                  <div className="flex flex-col">                
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="src/assets/bootstrap-5-1.svg"
+                  src={image9}
                   alt=""
                 />
                 <b>BOOSTRAP</b>

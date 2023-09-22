@@ -2,6 +2,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Skills from "./components/Skills";
+import img0 from "./assets/images/valentin.jpg"
+import img10 from "./assets/images/captura.png" 
 import { useState } from "react";
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -34,7 +36,7 @@ function App() {
           </div>
           <img
             className="rounded-full w-[11rem] h-[11.5rem] px-[1rem] lg:w-[14.5rem] lg:h-[15rem] transition-transform transform hover:scale-105"
-            src="src\assets\icons\valentin.jpg"
+            src={img0}
             alt=""
           />
         </div>
@@ -50,7 +52,7 @@ function App() {
           </h2>
           <div className="flex flex-col w-[100%] justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-2  w-[100%]">
-              <Card imageSrc="assets/Captura de pantalla (129).png" />
+              <Card imageSrc={img10} />
               <Card />
             </div>
             <div className="flex flex-wrap justify-center gap-2 w-[100%]">

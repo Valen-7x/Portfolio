@@ -11,7 +11,7 @@ function App() {
     setIsDark(!isDark);
   };
   const fontColor = isDark ? "text-white" : "text-black";
-  const backgroundColor = isDark ? "bg-gray-900" : "bg-purple-50";
+  const backgroundColor = isDark ? "bg-gray-900" : "animated";
   return (
     <>
       <div
@@ -19,12 +19,12 @@ function App() {
       >
         <Navbar isDark={isDark} toggleBackground={toggleBackground} />
         <div className="flex w-[100%]  gap-5 flex flex-wrap items-center md:flex-row md:justify-center justify-center sm:h-[30rem] h-[38rem] mt-[0.5rem]">
-          <div className="flex flex-col items-center w-[18rem] md:w-[40rem] gap-5">
+          <div className="flex  flex-col items-center w-[18rem] md:w-[40rem] gap-5">
             <b
               className={`text-purple-700 text-3xl md:text-[2.9rem] lg:pl-[2rem] mt-[1rem] flex flex-col gap-3  md:w-[40rem]  ${fontColor} `}
             >
               ¡Hola! Soy Valentin Dorigo,
-              <br /> <b className=" hover:underline">Desarrollador Frontend.</b>
+              <br /> <b className="hover:underline">Desarrollador Frontend.</b>
             </b>
             <b
               className="md:text-xl md:mt-[1rem] lg:pl-[4rem] text-lg text-black-600  md:w-[38rem]"
@@ -42,7 +42,7 @@ function App() {
         </div>
         <div className="flex mt-[2rem]">
           <h2 className="flex w-[100%] justify-center">
-            <b className="text-purple-700 text-3xl ">TECNOLOGIAS</b>
+            <b className="text-purple-700 text-3xl animate-typing bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500">TECNOLOGIAS</b>
           </h2>
         </div>
         <div className="flex flex-col justify-center w-[100%] ">

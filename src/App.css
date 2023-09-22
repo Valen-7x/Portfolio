@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+.fluid-animation {
+  animation-name: animate-typing; /* Nombre de la animación que estás usando */
+  animation-duration: 2s; /* Ajusta la duración de la animación a tu preferencia */
+  animation-timing-function: ease-in-out; /* Ajusta la función de temporización según sea necesario */
+  animation-iteration-count: infinite; /* Puede configurar el número de repeticiones */
+  animation-direction: alternate; /* Esto hace que la animación se revierta después de cada iteración */
+  background-clip: text;
+  background-image: linear-gradient(to right, from-pink-500, to-blue-500);
+}
+
+@keyframes animate-typing {
+  /* Define tus frames de animación aquí */
+  0% {
+    /* Estilos iniciales */
+    width: 0;
+  }
+  100% {
+    /* Estilos finales */
+    width: 100%;
+  }
+}
+@keyframes change-color {
+  from { background: rgb(179, 178, 178); }  /* Primer fotograma */
+  to { background: rgb(160, 182, 255); }  
+  /* Segundo y último fotograma */
+}
+.animated {
+  background: grey;
+  color: #FFF;
+  width: 100%;
+  height: 150px;
+  animation: change-color 4s ease 0s infinite;
+}
+

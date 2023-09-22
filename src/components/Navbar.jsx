@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import image1 from 'src\assets\images\codigo.png';
+import image1 from '../assets/images/codigo.png';
 const Navbar = ({ isDark, toggleBackground }) => {
   const [isOpen, setIsOpen] = useState(false);
 

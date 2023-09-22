@@ -9,7 +9,7 @@ export default function Skills() {
                 <div className="flex flex-col">
                 <img
                   className="w-[3.6rem] sm:w-[6rem] hover:scale-125"
-                  src="/assets/imgs/html.png"
+                  src="../assets/images/html.png"
                   alt=""
                 />
                 <b>HTML5</b>

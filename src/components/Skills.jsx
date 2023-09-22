@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Skills() {
   return (
          <div className="w-[100%] flex justify-center mt-[2rem] mb-[5rem]">

@@ -1,5 +1,5 @@
 import React from "react";
-export default function Card({ imageSrc }) {
+export default function Card({ imageSrc, title }) {
   
   return (
 <div className="relative mt-[1rem] w-[15rem] h-[10rem] md:w-[25rem] md:h-[18rem] rounded-2xl overflow-hidden">
@@ -8,7 +8,7 @@ export default function Card({ imageSrc }) {
     <div className="absolute  text-white inset-0 bg-gray-500 opacity-0 hover:opacity-90 ">
       <div className="flex justify-center items-center h-[100%]">
       <h2 className="text-white  font-bold  bottom-4  z-10">
-      App del Clima <br/> Obtene el clima de cualquier ciudad <br/> del mundo en tiempo real.
+     {title}
       </h2>
       </div>
     </div>

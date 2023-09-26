@@ -4,6 +4,7 @@ import Card from "./components/Card";
 import Skills from "./components/Skills";
 import img0 from "./assets/images/valentin.jpg"
 import img10 from "./assets/images/captura.png" 
+import imgLog from "./assets/images/log.png"
 import { useState } from "react";
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -18,7 +19,7 @@ function App() {
         className={`cursor-crosshair h-[100%] bg-cover bg-center ${backgroundColor} ${fontColor}`}
       >
         <Navbar isDark={isDark} toggleBackground={toggleBackground} />
-        <div className="flex w-[100%]  gap-5 flex flex-wrap items-center md:flex-row md:justify-center justify-center sm:h-[30rem] h-[38rem] mt-[0.5rem]">
+        <div className="flex w-[100%]  gap-5  flex-wrap items-center md:flex-row md:justify-center justify-center sm:h-[30rem] h-[38rem] mt-[0.5rem]">
           <div className="flex  flex-col items-center w-[18rem] md:w-[40rem] gap-5">
             <b
               className={`text-purple-700 text-3xl md:text-[2.9rem] lg:pl-[2rem] mt-[1rem] flex flex-col gap-3  md:w-[40rem]  ${fontColor} `}
@@ -52,8 +53,8 @@ function App() {
           </h2>
           <div className="flex flex-col w-[100%] justify-center gap-8">
             <div className="flex flex-wrap justify-center gap-2  w-[100%]">
-              <Card imageSrc={img10} />
-              <Card />
+              <Card imageSrc={img10} title=" App del Clima,  en tiempo real."/>
+              <Card imageSrc={imgLog} title="App para Logearse."/>
             </div>
             <div className="flex flex-wrap justify-center gap-2 w-[100%]">
               <path

@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import img0 from "./assets/images/valentin.jpg"
 import img10 from "./assets/images/captura.png" 
 import imgLog from "./assets/images/log.png"
+import Footer from "./components/Footer";
 import { useState } from "react";
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -65,7 +66,9 @@ function App() {
               <Card />
             </div>
           </div>
+          
         </div>
+        <Footer/>
       </div>
     </>
   );

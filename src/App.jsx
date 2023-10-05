@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Skills from "./components/Skills";
 import img0 from "./assets/images/valentin.jpg"
-import img10 from "./assets/images/captura.png" 
+import img10 from "./assets/images/captura.png"
+import img8 from "./assets/images/cocktails.png" 
 import imgLog from "./assets/images/log.png"
 import Footer from "./components/Footer";
 import { useState } from "react";
@@ -53,9 +54,15 @@ function App() {
             <b className="text-purple-700 text-3xl ">PROYECTOS</b>
           </h2>
           <div className="flex flex-col w-[100%] justify-center gap-8">
-            <div className="flex flex-wrap justify-center gap-2  w-[100%]">
-              <Card imageSrc={img10} title=" App del Clima,  en tiempo real."/>
-              <Card imageSrc={imgLog} title="App para Logearse."/>
+            <div className="flex flex-col items-center flex-wrap justify-center gap-2  w-[100%]">
+              <div className="flex gap-5">
+              <Card imageSrc={img10} title=" App del Clima,  en tiempo real." url={"https://app-clima-swart.vercel.app/" } />
+              <Card imageSrc={imgLog} title="App para Logearse." />
+              </div>
+              <div>
+              <Card imageSrc={img8} title="Recetas De Cocktails" url={"https://illustrious-tiramisu-aa9b80.netlify.app/"}></Card>
+
+              </div>
             </div>
             <div className="flex flex-wrap justify-center gap-2 w-[100%]">
               <path

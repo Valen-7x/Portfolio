@@ -1,5 +1,5 @@
 import React from "react";
-export default function Card({ imageSrc, title }) {
+export default function Card({ imageSrc, }) {
   
   return (
 <div className="relative mt-[1rem] w-[15rem] h-[10rem] md:w-[25rem] md:h-[18rem] rounded-2xl overflow-hidden">

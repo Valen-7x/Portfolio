@@ -57,11 +57,10 @@ function App() {
             <div className="flex flex-col items-center flex-wrap justify-center gap-2  w-[100%]">
               <div className="flex items-center justify-center w-[100%] flex-wrap gap-5">
               <Card imageSrc={img10} title=" App del Clima,  en tiempo real." url={"https://app-clima-swart.vercel.app/" } />
-              <Card imageSrc={imgLog} title="App para Logearse." />
+             <Card imageSrc={img8} title="Recetas De Cocktails" url={"https://illustrious-tiramisu-aa9b80.netlify.app/"}></Card>
               </div>
               <div>
-              <Card imageSrc={img8} title="Recetas De Cocktails" url={"https://illustrious-tiramisu-aa9b80.netlify.app/"}></Card>
-
+              {/* <Card imageSrc={imgLog} title="App para Logearse." /> */}
               </div>
             </div>
             <div className="flex flex-wrap justify-center gap-2 w-[100%]">

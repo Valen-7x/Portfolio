@@ -17,7 +17,7 @@ const Navbar = ({ isDark, toggleBackground }) => {
         <div className='flex flex-col items-center'>
         <button
           onClick={toggleMenu}
-          className="md:hidden focus:outline-none"
+          className="text-black md:hidden focus:outline-none"
         >
           <svg
             className="w-6 h-6"
